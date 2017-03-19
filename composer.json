@@ -1,0 +1,22 @@
+{
+    "name": "brian9206/codeigniter-ratchet-websocket-support",
+	"version": "1.0.0",
+    "description": "Enable CodeIgniter runs on Ratchet for WebSocket support",
+    "type": "library",
+    "require": {
+        "cboden/ratchet": "^0.3.6",
+        "codeigniter/framework": "^3.1",
+		"brian9206/codeigniter-ratchet-websocket-support": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Brian",
+            "email": "brian9206@hotmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "CIRatchet\\": "src/CIRatchet"
+        }
+    }
+}
